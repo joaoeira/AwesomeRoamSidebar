@@ -111,55 +111,55 @@ function sidebarMovementClosure(){
 const sidebarMovement = sidebarMovementClosure();
 
 document.addEventListener("keydown", (e) => {
-    if(e.ctrlKey && e.altKey && e.key === "ArrowUp"){
+    if(e.ctrlKey && e.altKey && e.key.toLowerCase() === "i"){
         sidebarMovement.up();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.ctrlKey && e.altKey && e.key === "ArrowDown"){
+    if(e.ctrlKey && e.altKey && e.key.toLowerCase() === "k"){
         sidebarMovement.down();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.ctrlKey && e.altKey && e.key === "ArrowRight"){
+    if(e.ctrlKey && e.altKey && e.key.toLowerCase() === "l"){
         sidebarMovement.end();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.ctrlKey && e.altKey && e.key === "ArrowLeft"){
+    if(e.ctrlKey && e.altKey && e.key.toLowerCase() === "j"){
         sidebarMovement.start();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.ctrlKey && e.altKey && e.key === "x"){
+    if(e.ctrlKey && e.altKey && e.key.toLowerCase() === "x"){
         sidebarMovement.close();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.altKey && e.shiftKey && e.key === "ArrowDown"){
+    if(e.altKey && e.shiftKey && e.key.toLowerCase() === "k"){
         sidebarMovement.moveSidebarPageDown();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.altKey && e.shiftKey && e.key === "ArrowUp"){
+    if(e.altKey && e.shiftKey && e.key.toLowerCase() === "i"){
         sidebarMovement.moveSidebarPageUp();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.altKey && e.shiftKey && e.key === "ArrowLeft"){
+    if(e.altKey && e.shiftKey && e.key.toLowerCase() === "j"){
         sidebarMovement.moveSidebarPageToTop();
     }
 })
 
 document.addEventListener("keydown", (e) => {
-    if(e.altKey && e.shiftKey && e.key === "ArrowRight"){
+    if(e.altKey && e.shiftKey && e.key.toLowerCase() === "l"){
         sidebarMovement.moveSidebarPageToBottom();
     }
 })
