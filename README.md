@@ -2,7 +2,7 @@
 
 [Twitter thread presenting Awesome Roam Sidebar with GIFs](https://twitter.com/joaoeira/status/1308869111892635649)
 
-[Roam Research](https://roamresearch.com/) is a note taking tool for networked thought, and it represents the highest increase in mental productivity since the invetion of writing itself.
+[Roam Research](https://roamresearch.com/) is a note taking tool for networked thought, and it represents the highest increase in mental productivity since the invention of writing itself.
 
 Nonetheless, it is not perfect, at least not for my preferences. One of the things that I found lacking was the inability to use the keyboard to navigate across the open sidebar pages and to reorder them when needed. Hence why I created Awesome Roam Sidebar, which as the name indicates, makes the Roam Sidebar, well, Awesome. 
 
